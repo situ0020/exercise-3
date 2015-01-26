@@ -15,7 +15,7 @@
   }
 }
 */
-/* line 22, /Users/User/Desktop/exercise-3-starter/scss/components/push-menu-custom */
+/* line 22, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/push-menu-custom */
 [class^="i-"]:before, [class*=" i-"]:before {
   font-family: "push-menu-custom";
   font-style: normal;
@@ -40,12 +40,12 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/User/Desktop/exercise-3-starter/scss/components/push-menu-custom */
+/* line 53, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/push-menu-custom */
 .i-menu:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/User/Desktop/exercise-3-starter/scss/components/push-menu-custom */
+/* line 54, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/push-menu-custom */
 .i-close:before {
   content: '\e801'; }
 
@@ -70,27 +70,27 @@
   width: device-width;
   scale: 1; }
 
-/* line 7, /Users/User/Desktop/exercise-3-starter/scss/components/main */
+/* line 7, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%; }
 
-/* line 16, /Users/User/Desktop/exercise-3-starter/scss/components/main */
+/* line 16, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 21, /Users/User/Desktop/exercise-3-starter/scss/components/main */
+/* line 21, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 0; }
-  /* line 25, /Users/User/Desktop/exercise-3-starter/scss/components/main */
+  /* line 25, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   body.noscript .close-btn {
     display: none; }
 
-/* line 30, /Users/User/Desktop/exercise-3-starter/scss/components/main */
+/* line 30, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 header {
   padding: 0 1em;
   position: relative; }
