@@ -85,34 +85,42 @@ html {
 body {
   background-color: #b2ffdc;
   font-family: sans-serif;
+  text-align: center;
   margin: 0;
   padding: 0; }
-  /* line 27, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 28, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   body.noscript .close-btn body.noscript .toggle-btn {
     display: none; }
 
-/* line 32, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+/* line 33, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+h1 {
+  background-color: #7c7cae;
+  color: #b2ffdc;
+  padding: 0.5em;
+  margin: auto; }
+
+/* line 40, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 header {
-  padding: 0 1em;
+  padding: 0;
   position: relative; }
 
-/* line 37, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+/* line 45, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 .toggle-btn {
   position: absolute;
   right: 1em;
   top: 0; }
 
-/* line 43, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+/* line 51, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 .navigation ul {
   margin: 0;
   padding: 0; }
-  /* line 45, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 53, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   .navigation ul li {
     list-style-type: none; }
-    /* line 47, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+    /* line 55, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
     .navigation ul li:first-child a {
       border-top: 1px solid #ccc; }
-    /* line 50, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+    /* line 58, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
     .navigation ul li a {
       display: block;
       padding: 0.5em 1em;
@@ -120,34 +128,34 @@ header {
       border-bottom: 1px solid #ccc;
       text-decoration: none; }
 
-/* line 62, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+/* line 70, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 .toggle-btn, .close-btn {
   color: #222;
   height: 40px;
   width: 40px; }
-  /* line 66, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 74, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   .toggle-btn span, .close-btn span {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
-  /* line 69, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 77, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   .toggle-btn i, .close-btn i {
     border: 1px solid #222;
     padding: 0.5em; }
 
-/* line 75, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+/* line 83, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 .close-btn {
   margin: 1em; }
 
 @media only screen and (max-width: 60em) {
-  /* line 80, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 88, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100; }
-    /* line 85, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+    /* line 93, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
     .site-wrapper .sliding-canvas {
       width: 100%;
       height: 100%;
@@ -156,16 +164,16 @@ header {
           -ms-transform: translateX(0);
               transform: translateX(0);
       transition: all 300ms ease-in-out; }
-    /* line 93, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+    /* line 101, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
     .site-wrapper[data-state="slide-open"] .sliding-canvas {
       -webkit-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
               transform: translateX(-100%); }
-    /* line 97, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+    /* line 105, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
     .site-wrapper[data-state="slide-open"] {
       overflow: visible; }
 
-  /* line 104, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 112, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   .slide-menu {
     position: absolute;
     width: 100%;
@@ -177,12 +185,12 @@ header {
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 118, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 126, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   .toggle-btn, .close-btn {
     display: none; }
  }
 
-/* line 124, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+/* line 132, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }

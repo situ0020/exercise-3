@@ -19,8 +19,9 @@ html {
 
 
 body{
-  background-color: $background;
+  background-color: $light-green;
   font-family: sans-serif;
+  text-align: center;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn
@@ -29,8 +30,15 @@ body{
   }
 }
 
+h1{
+  background-color: $purple;
+  color: $light-green;
+  padding: .5em;
+  margin: auto;
+}
+
 header {
-  padding: 0 1em;
+  padding: 0;
   position: relative;
 }
 
