@@ -45,7 +45,12 @@ header {
 .toggle-btn{
   position: absolute;
   right: 1em;
-  top: 0;
+  top: 1.25em;
+}
+
+.toggle-btn:hover{
+  color: $light-green;
+  @include ease(all, 300ms, ease-in-out);
 }
 
 .navigation ul{
@@ -53,13 +58,11 @@ header {
   li{
     list-style-type: none;
     &:first-child a{
-      border-top: 1px solid $light-grey;
     }
   a{
     display: block;
     padding: .5em 1em;
     text-align: center;
-    border-bottom: 1px solid $light-grey;
     text-decoration: none;
   }
 
@@ -68,7 +71,6 @@ header {
 
 .toggle-btn,
 .close-btn{
-  padding-top: 1.25em;
   color: $text-color;
   height: 40px;
   width: 40px;
@@ -125,6 +127,10 @@ header {
   .toggle-btn,
   .close-btn{
     display: none;
+  }
+
+  h1{
+    text-align: left;
   }
 
 }
