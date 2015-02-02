@@ -65,13 +65,14 @@ header {
     padding-bottom: 1.15em;
     text-align: center;
     text-decoration: none;
+    color: $purple;
   }
 
   }// li
 }// navigation ul
 
-.navigation li:hover{
-  background-color: $white;
+.navigation a:hover{
+  color: $white;
   @include ease(all, 500ms, ease-in-out);
 }
 
@@ -146,8 +147,15 @@ header {
     text-align: left;
   }
 
-  .navigation ul{
+
+  .navigation li{
+    display: inline-block;
+    padding: .5em 2em;
+  }
+
+  .navigation ul {
     background-color: $light-green;
+    text-align: center;
   }
 
 }
