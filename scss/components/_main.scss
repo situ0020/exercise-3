@@ -19,7 +19,8 @@ html {
 
 
 body{
-  background-color: $light-green;
+  background: $background-image;
+  background-size: cover;
   font-family: sans-serif;
   @include zero;
   // Hides close button if there is no js
@@ -31,25 +32,27 @@ body{
 
 h1{
   text-align: center;
-  color: $light-green;
+  color: $white;
   padding: .5em;
   margin: 0;
 }
 
 header {
+  opacity: .75;
   padding: 0;
   position: relative;
-  background-color: $purple;
+  background-color: $blue;
 }
 
 .toggle-btn{
   position: absolute;
   right: 1em;
   top: 0;
+  color: $text-color;
 }
 
 .toggle-btn:hover{
-  color: $light-green;
+  color: $white;
   @include ease(all, 500ms, ease-in-out);
 }
 
@@ -65,21 +68,20 @@ header {
     padding-bottom: 1.15em;
     text-align: center;
     text-decoration: none;
-    color: $purple;
+    color: $blue;
   }
 
   }// li
 }// navigation ul
 
 .navigation a:hover{
-  color: $white;
+  color: $light-grey;
   @include ease(all, 500ms, ease-in-out);
 }
 
 .toggle-btn,
 .close-btn{
   top: 1.25em;
-  color: $text-color;
   height: 40px;
   width: 40px;
   span{
@@ -93,10 +95,11 @@ header {
 .close-btn{
   position: absolute;
   padding-left: 1em;
+  color: $blue;
 }
 
 .close-btn:hover{
-  color: $purple;
+  color: $white;
   @include ease(all, 500ms, ease-in-out);
 }
 
@@ -153,8 +156,16 @@ header {
     padding: .5em 2em;
   }
 
+  .navigation a{
+    border-bottom: 5px solid $white;
+  }
+
+  .navigation a:hover{
+    border-bottom: 5px solid $light-grey;
+  }
+
   .navigation ul {
-    background-color: $light-green;
+    background-color: $white;
     text-align: center;
   }
 
