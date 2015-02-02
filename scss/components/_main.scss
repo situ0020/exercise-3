@@ -31,21 +31,21 @@ body{
 
 h1{
   text-align: center;
-  background-color: $purple;
   color: $light-green;
   padding: .5em;
-  margin: auto;
+  margin: 0;
 }
 
 header {
   padding: 0;
   position: relative;
+  background-color: $purple;
 }
 
 .toggle-btn{
   position: absolute;
   right: 1em;
-  top: 1.25em;
+  top: 0;
 }
 
 .toggle-btn:hover{
@@ -71,6 +71,7 @@ header {
 
 .toggle-btn,
 .close-btn{
+  top: 1.25em;
   color: $text-color;
   height: 40px;
   width: 40px;
@@ -83,7 +84,8 @@ header {
 }
 
 .close-btn{
-  margin: 1em;
+  position: absolute;
+  padding-left: 1em;
 }
 
 @media only screen and (max-width: 60em){
