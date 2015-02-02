@@ -56,18 +56,24 @@ header {
 .navigation ul{
   @include zero;
   li{
+    padding-top: 1.5em;
     list-style-type: none;
     &:first-child a{
     }
   a{
     display: block;
-    padding: .5em 1em;
+    padding-bottom: 1.15em;
     text-align: center;
     text-decoration: none;
   }
 
   }// li
 }// navigation ul
+
+.navigation li:hover{
+  background-color: $white;
+  @include ease(all, 500ms, ease-in-out);
+}
 
 .toggle-btn,
 .close-btn{
