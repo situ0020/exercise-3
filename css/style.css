@@ -85,15 +85,15 @@ html {
 body {
   background-color: #b2ffdc;
   font-family: sans-serif;
-  text-align: center;
   margin: 0;
   padding: 0; }
-  /* line 28, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 27, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   body.noscript .close-btn body.noscript .toggle-btn {
     display: none; }
 
-/* line 33, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+/* line 32, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 h1 {
+  text-align: center;
   background-color: #7c7cae;
   color: #b2ffdc;
   padding: 0.5em;
@@ -130,18 +130,18 @@ header {
 
 /* line 70, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 .toggle-btn, .close-btn {
+  padding-top: 1.25em;
   color: #222;
   height: 40px;
   width: 40px; }
-  /* line 74, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 75, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   .toggle-btn span, .close-btn span {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
-  /* line 77, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  /* line 78, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   .toggle-btn i, .close-btn i {
-    border: 1px solid #222;
     padding: 0.5em; }
 
 /* line 83, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */

@@ -21,7 +21,6 @@ html {
 body{
   background-color: $light-green;
   font-family: sans-serif;
-  text-align: center;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn
@@ -31,6 +30,7 @@ body{
 }
 
 h1{
+  text-align: center;
   background-color: $purple;
   color: $light-green;
   padding: .5em;
@@ -68,6 +68,7 @@ header {
 
 .toggle-btn,
 .close-btn{
+  padding-top: 1.25em;
   color: $text-color;
   height: 40px;
   width: 40px;
@@ -75,7 +76,6 @@ header {
     @include hide-text;
   }
   i{
-    border: 1px solid $text-color;
     padding: .5em;
   }
 }
