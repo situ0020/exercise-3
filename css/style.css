@@ -205,9 +205,13 @@ header {
   /* line 145, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
   h1 {
     text-align: left; }
+
+  /* line 149, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+  .navigation ul {
+    background-color: #b2ffdc; }
  }
 
-/* line 151, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
+/* line 155, /Users/katiesitu/Desktop/web-dev/exercise-3/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }
