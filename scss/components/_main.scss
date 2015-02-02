@@ -88,6 +88,11 @@ header {
   padding-left: 1em;
 }
 
+.close-btn:hover{
+  color: $purple;
+  @include ease(all, 500ms, ease-in-out);
+}
+
 @media only screen and (max-width: 60em){
   .site-wrapper{
     position: relative;
